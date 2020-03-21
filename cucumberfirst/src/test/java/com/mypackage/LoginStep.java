@@ -14,8 +14,8 @@ public class LoginStep {
 	
 	  @Given("user navigates to facebook website") public void
 	  user_navigates_to_facebook_website() {
-		  HomePage hp = new HomePage();
-		  hp.getHomePageTitle();
+		  
+		  HomePage.getHomePageTitle();
 	  System.out.println("@Given - user naviagtes to facebook.com"); }
 	  
 	  
