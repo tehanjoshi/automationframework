@@ -1,15 +1,21 @@
 package com.mypackage;
 
+import cucumberfirst.HomePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+
+
+
 
 public class LoginStep {
 
 	
 	  @Given("user navigates to facebook website") public void
 	  user_navigates_to_facebook_website() {
+		  HomePage hp = new HomePage();
+		  hp.getHomePageTitle();
 	  System.out.println("@Given - user naviagtes to facebook.com"); }
 	  
 	  
