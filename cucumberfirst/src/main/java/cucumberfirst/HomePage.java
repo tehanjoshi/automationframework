@@ -1,6 +1,12 @@
 package cucumberfirst;
 
 public class HomePage {
+	
+	
+	public HomePage()
+	{
+		
+	}
 
 	public static void getHomePageTitle()
 	{
